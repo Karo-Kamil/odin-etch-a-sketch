@@ -5,17 +5,18 @@ body {
     align-items: center;
     justify-content: center;
 }
-.container {
+#container {
     display: flex;
     width: 960px;
     height: 960px;
     padding: 0;
-    border: 2px solid red;
+    box-sizing: border-box;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 
 .border {
-    border: 2px solid green;
+    background-color: black;
+    opacity: 0;
     box-sizing: border-box;
 }
