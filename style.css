@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    width: 960px;
+    height: 960px;
+    padding: 0;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.border {
+    border: 2px solid green;
+    box-sizing: border-box;
+}
